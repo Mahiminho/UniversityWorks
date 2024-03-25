@@ -1,0 +1,19 @@
+New color of audio player is Purple.
+Size of audio player: 17.05 cm^2.
+Weight of audio player: 52.514 g.
+Color of audio player: Purple.
+Dynamics occupy 1.2717 cm^2 of size.
+You can tap the volume up button 454445 more times.
+You can tap the volume up button 454445 more times.
+You tap the volume up button.
+You tap the volume up button.
+You tap the volume up button.
+You tap the volume up button.
+You tap the volume up button.
+You tap the volume up button.
+You tap the volume down button.
+You tap the volume down button.
+You tap the volume down button.
+You press the volume up button.
+You press the volume down button.
+You reboot your audio player.

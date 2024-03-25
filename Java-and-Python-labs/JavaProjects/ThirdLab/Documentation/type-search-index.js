@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"pack","l":"Dictaphone"},{"p":"pack","l":"Lab3PopovKI304"}];updateSearchResults();
