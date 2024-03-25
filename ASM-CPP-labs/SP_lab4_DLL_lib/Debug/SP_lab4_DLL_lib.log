@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  dllmain.cpp
+C:\Users\Sager\source\repos\SP_lab4_DLL_lib\dllmain.cpp(13,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Sager\source\repos\SP_lab4_DLL_lib\dllmain.cpp(28,23): warning C4018: '<': signed/unsigned mismatch
+     Creating library C:\Users\Sager\source\repos\SP_lab4_DLL_lib\Debug\SP_lab4_DLL_lib.lib and object C:\Users\Sager\source\repos\SP_lab4_DLL_lib\Debug\SP_lab4_DLL_lib.exp
+  SP_lab4_DLL_lib.vcxproj -> C:\Users\Sager\source\repos\SP_lab4_DLL_lib\Debug\SP_lab4_DLL_lib.dll
