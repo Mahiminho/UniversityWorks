@@ -1,0 +1,14 @@
+[Version]
+Version=13.0
+[Designs]
+lab6=lab6.adf
+[Settings]
+Active=lab6
+[Expand]
+lab6=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: c:/My_Designs/lab3/src/SHEME.vhd" 
+MESSAGE "Compile Entity "interface"" 
+MESSAGE "Compile Architecture "behaviour" of Entity "interface"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]" 

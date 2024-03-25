@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design-settings>
+	<plugins>
+		<Aldec.Stimuli.1>
+			<hierarchy activeStimuliSetName="StimuliSet8">
+				<stimuliSet name="StimuliSet1">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="100ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/interface/X"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet2">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="1ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/interface/X"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet3">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="10ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/interface/X"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet4">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="20ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/interface/X"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet5">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="1ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/interface/X"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet6">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="decimal"/>
+							<period value="5ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/interface/X"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet7">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="20ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/interface/X"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet8">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="5ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/interface/X"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+			</hierarchy>
+		</Aldec.Stimuli.1>
+	</plugins>
+</design-settings>

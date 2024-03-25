@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design-settings>
+	<plugins>
+		<Aldec.Stimuli.1>
+			<hierarchy activeStimuliSetName="StimuliSet16">
+				<stimuliSet name="StimuliSet1">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/parallel_register/enable"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="100ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/parallel_register/clock"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus3" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="10010110"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/parallel_register/data_in"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus4" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/parallel_register/reset"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet2">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/parallel_register/enable"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/parallel_register/reset"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus3" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="100ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/parallel_register/clock"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus4" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="Stimulus5" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="ZZZZZZZZ"/>
+							<radix value="hexadecimal"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/parallel_register/data_in"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet3">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/parallel_register/enable"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/parallel_register/reset"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus3" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="100ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/parallel_register/clock"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus4" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="ZZZZZZZZ"/>
+							<radix value="hexadecimal"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/parallel_register/data_in"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet4">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/parallel_register/enable"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet5">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="editableSignal">
+						<stimulus_data>
+							<file_path value=""/>
+							<signal_name value="10"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/parallel_register/enable"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="editableSignal">
+						<stimulus_data>
+							<file_path value=""/>
+							<signal_name value="01"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/parallel_register/reset"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus3" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="100ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/parallel_register/clock"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet6">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="100ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/parallel_register/clock"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet7">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="100ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/CLK"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="1" time="10ns"/>
+								<entry value="0" time="10us"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/RESET"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus3" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="10010110"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/data_in"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus4" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="100ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="high"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/WE"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus5" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="200ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/RE"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet8">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="100ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/CLK"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="1" time="1us"/>
+								<entry value="0" time="3us"/>
+							</entries>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="Stimulus3" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="10010110"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/data_in"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus4" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="1us"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="high"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/WE"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus5" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="2us"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/RE"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus6" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="1" time="1us"/>
+								<entry value="0" time="4us"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/RESET"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet9">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="100ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="Stimulus3" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/shift_register/data_in"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus4" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/shift_register/shift"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus5" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/shift_register/wen"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus6" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/shift_register/ren"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus7" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="100ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/shift_register/clk"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus8" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/shift_register/reset"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet10">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="100ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/CLK"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/RESET"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus3" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="10011001"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/data_in"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus4" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="150ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/SHIFT"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus5" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="1" time="0fs"/>
+								<entry value="0" time="200ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/WE"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus6" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="0" time="0fs"/>
+								<entry value="1" time="200ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/RE"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet11">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="100ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/CLK"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/RESET"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus3" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="11100110"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/data_in"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus4" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="1" time="0fs"/>
+								<entry value="0" time="200ns"/>
+								<entry value="1" time="1100ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/WE"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus5" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="0" time="0fs"/>
+								<entry value="1" time="200ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/RE"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus6" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="150ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/SHIFT"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet12">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="100ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/CLK"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/RESET"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus3" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="100ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="Stimulus4" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="150ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="Stimulus5" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="10010110"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/data_in"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus6" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="1" time="0fs"/>
+								<entry value="0" time="200ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/WE"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus7" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="0" time="0fs"/>
+								<entry value="1" time="400ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/RE"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet13">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="1" time="0fs"/>
+								<entry value="0" time="200ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/WE"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="0" time="0fs"/>
+								<entry value="1" time="400ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/RE"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus3" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="10010110"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/data_in"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus4" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="100ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/CLK"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus5" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/RESET"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet14">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/SHIFT"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet15">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="100ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/CLK"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/RESET"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus3" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="10011001"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/data_in"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus4" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="1" time="0fs"/>
+								<entry value="0" time="900ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/WE"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus5" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="0" time="0fs"/>
+								<entry value="1" time="800ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/RE"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus6" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/SHIFT"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet16">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="100ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/CLK"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/RESET"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus3" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="10010110"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/data_in"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus4" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="150ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="high"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/WE"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus5" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="200ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/RE"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus6" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/reg_8bit/SHIFT"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+			</hierarchy>
+		</Aldec.Stimuli.1>
+	</plugins>
+</design-settings>

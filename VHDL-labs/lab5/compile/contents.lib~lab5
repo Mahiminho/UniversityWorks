@@ -1,0 +1,7 @@
+22
+~E 1 "../src/Parallel_register.vhd" 28 parallel_register
+~A 1 "../src/Parallel_register.vhd" 40 Behavioral
+~E 1 "../src/new_shift_reg.vhd" 4 reg_8bit
+~A 1 "../src/new_shift_reg.vhd" 16 Behavioral
+~E 1 "../src/shift_register.vhd" 4 shift_register
+~A 1 "../src/shift_register.vhd" 16 behavioral

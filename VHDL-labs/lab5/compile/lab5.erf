@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/My_Designs/lab5/src/new_shift_reg.vhd" 
+MESSAGE "Compile Entity "reg_8bit"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "reg_8bit"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]" 

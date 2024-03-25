@@ -1,0 +1,48 @@
+timestamp=1682611690390
+
+[~A]
+ModifyID=22
+Version=74
+
+[~MFT]
+0=2|0lab5.mgf|9951|5042
+1=2|1lab5.mgf|23525|21338
+3=2|3lab5.mgf|1997|669
+
+[parallel_register]
+A/behavioral=A/Behavioral 21|../src/Parallel_register.vhd|40|1*3663
+BinW64/behavioral=3*0
+I=0*691
+I/behavioral=I/Behavioral 0*1847
+M=11|2|vef|1681749531055|../src/Parallel_register.vhd|0*235*0xe6037a8f24793cf9c94cb1ecc3210d772b06724e|0*592*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1681806117461|../src/Parallel_register.vhd|0*1421*0x084da03fe158f0f6667601498eb755f7110e80b7|0*1734*0x20116f55b147878295aeff36dce7fc50
+R=../src/Parallel_register.vhd|28
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|60e761fb177b12e645b0b89221bd8812256e5f724f05912472ef55b5a1a8db57718599bfc456ac3c539a980032146b52
+Version/behavioral=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4280b9d93c5b3658f8a71cc4947c8b1eb
+
+[reg_8bit]
+A/behavioral=A/Behavioral 21|../src/new_shift_reg.vhd|16|1*23525
+BinW64/behavioral=3*1997
+I=0*9069
+I/behavioral=I/Behavioral 0*9951
+M=11|2|vef|1682446521254|../src/new_shift_reg.vhd|0*8629*0x44e2e18f8a4fe95b33a73f738deee4de5d5aa7b8|0*8983*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1682611690358|../src/new_shift_reg.vhd|0*9271*0x35a184d456dbd718c63153df13d5e33a639f614f|0*9851*0x20116f55b147878295aeff36dce7fc50
+R=../src/new_shift_reg.vhd|4
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|b4349ddf9d204aa46b0f16c18920c4c787dff3ca29dc89f6fb5ef56f2a729a5058e1aa66ada0defd9d20cdd69bccc14f
+Version/behavioral=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4c8efaf6d1e25602186a2de5a8e688136
+
+[shift_register]
+A/behavioral=21|../src/shift_register.vhd|16|1*9360
+BinW64/behavioral=3*1014
+I=0*4332
+I/behavioral=0*5262
+M=11|2|vef|1681817400656|../src/shift_register.vhd|0*3883*0xbaca152163db17a6c0c8cc0536ea2c9235f14cfe|0*4239*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=21|2|vef|1681818686704|../src/shift_register.vhd|0*4540*0xb850bd076afdcacd6821fbab785ef98c75b309bc|0*5155*0x20116f55b147878295aeff36dce7fc50
+R=../src/shift_register.vhd|4
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|8b0936a0db3d513519093826821bfa451c298ca80f5e6fe41f050e165e9372109e567d38bf09ee42093cf7514bbd8dd2
+Version/behavioral=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff486ef97d04df3199b4b4afc3b0508ad1c
+
+[~U]
+parallel_register=11|0*0|
+reg_8bit=11|0*8409|
+shift_register=11|0*3664|

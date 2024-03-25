@@ -1,0 +1,3 @@
+3
+~E 1 "../src/Decoder.vhd" 28 decoder
+~A 1 "../src/Decoder.vhd" 37 Behavioral

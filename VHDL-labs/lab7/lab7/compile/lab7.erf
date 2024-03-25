@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: ./../compile/test_diagram.vhd" 
+MESSAGE "Compile Entity "test_diagram"" 
+MESSAGE "Compile Architecture "test_diagram" of Entity "test_diagram"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]" 

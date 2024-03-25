@@ -1,0 +1,17 @@
+25
+~E 1 "../src/Decoder.vhd" 4 decoder
+~A 1 "../src/Decoder.vhd" 13 Behavioral
+~E 1 "../src/mod_DEMUX.vhd" 4 demultiplexer
+~A 1 "../src/mod_DEMUX.vhd" 19 Behavioral
+~E 1 "../src/Test_DEMUX.vhd" 5 demux_32
+~A 1 "../src/Test_DEMUX.vhd" 13 behaviour
+~E 1 "../src/LCDconverter.vhd" 4 lcd_converter
+~A 1 "../src/LCDconverter.vhd" 11 Behavioral
+~E 1 "../src/mod_reg.vhd" 4 parallel_register
+~A 1 "../src/mod_reg.vhd" 13 Behavioral
+~E 1 "../src/shift_register.vhd" 4 reg_8bit
+~A 1 "../src/shift_register.vhd" 16 Behavioral
+~E 1 "../src/new_test_register.vhd" 4 reg_universal
+~A 1 "../src/new_test_register.vhd" 22 reg_universal_body
+~E 1 "../compile/test_diagram.vhd" 27 test_diagram
+~A 1 "../compile/test_diagram.vhd" 43 test_diagram

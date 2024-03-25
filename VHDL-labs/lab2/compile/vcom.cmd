@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/lab_2_mks/compile/lab_2_mks.erf -d C:/My_Designs/lab_2_mks/compile -s C:/My_Designs/lab_2_mks/library.cfg -j C:/My_Designs/lab_2_mks/projlib.cfg -work lab_2_mks -O3 -e 100 -work lab_2_mks -2002 C:/My_Designs/lab_2_mks/src/Decoder.vhd 

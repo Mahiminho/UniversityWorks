@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/My_Designs/lab6/lab6/src/ROM.vhd" 
+MESSAGE "Compile Entity "ROM"" 
+MESSAGE "Compile Architecture "ROM" of Entity "ROM"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

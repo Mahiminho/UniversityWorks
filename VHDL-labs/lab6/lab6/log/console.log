@@ -1,0 +1,69 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Error: couldn't read file "C:Tcl/lib/aldec/templates/common/gui_items.tcl": no such file or directory
+#     while executing
+# "source [ file join $aldec Tcl lib aldec templates common gui_items.tcl ]"
+#     (file "C:/tcl/lib/aldec/scripts/flowtools.tcl" line 41)
+#     invoked from within
+# "source [file join $dirTmp scripts flowtools.tcl]"
+#     (file "C:/tcl/lib/aldec/slave.tcl" line 82)
+#     invoked from within
+# "source "C:/tcl/lib/aldec/slave.tcl""
+#     invoked from within
+# "interp eval $slave "source \"$init_file\"""
+#     invoked from within
+# "if {![info exists slave] || ![interp exists $slave]} {
+# 	set slave [interp create slave_interp]
+# 	interp eval $slave set tcl_interactive 1
+# 	if {![info e..."
+# Error: couldn't read file "C:Tcl/lib/aldec/templates/common/gui_items.tcl": no such file or directory
+#     while executing
+# "source [ file join $aldec Tcl lib aldec templates common gui_items.tcl ]"
+#     (file "C:/tcl/lib/aldec/scripts/MultivendorTools.tcl" line 20)
+#     invoked from within
+# "source C:/tcl/lib/aldec/scripts/MultivendorTools.tcl"
+#     ("package ifneeded ::aldec::MultivendorTools 1.0" script)
+#     invoked from within
+# "package require ::aldec::MultivendorTools"
+#     (file "C:/Tcl/lib/aldec/templates/mv/flow.tcl" line 26)
+#     invoked from within
+# "source {C:/Tcl/lib/aldec/templates/mv/flow.tcl}"
+#     invoked from within
+# "interp eval $slave "source $source_file""
+acom -O3 -e 100 -work lab6 -2002  $dsn/src/ROM.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/lab6/lab6/src/ROM.vhd
+# Compile Entity "ROM"
+# Compile Architecture "ROM" of Entity "ROM"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+asim -O5 +access +r +m+ROM ROM ROM
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5438 kB (elbread=427 elab2=4872 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\lab6\lab6\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet6" has been made inactive.
+#  21:17, 25 квітня 2023 р.
+#  Simulation has been initialized
+# add wave -noreg {/ROM/array_rom}
+# add wave -noreg {/ROM/Addr}
+# add wave -noreg {/ROM/CEO}
+# add wave -noreg {/ROM/Dout}
+# VSIM: 4 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/lab6/lab6/src/wave.asdb'.

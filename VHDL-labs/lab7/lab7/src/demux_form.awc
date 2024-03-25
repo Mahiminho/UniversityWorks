@@ -1,0 +1,54 @@
+<config>
+    <version>
+        3.1
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="80fa5b2b89e01c2044646e8ece070100">demux_form.asdb</database>
+    </databases>
+    <gridshown/>
+    <signallists>
+        <signallist id="0">
+        <signal>/demultiplexer/select_bits</signal>
+        <signal>/demultiplexer/X</signal>
+        <signal>/demultiplexer/CLK</signal>
+        <signal>/demultiplexer/Y0</signal>
+        <signal>/demultiplexer/Y1</signal>
+        <signal>/demultiplexer/Y2</signal>
+        <signal>/demultiplexer/Y3</signal>
+        <signal>/demultiplexer/Y4</signal>
+        <signal>/demultiplexer/Y5</signal>
+        <signal>/demultiplexer/Y6</signal>
+        <signal>/demultiplexer/Y7</signal>
+        </signallist>
+    </signallists>
+    <timebases>
+        <timebase id="0">
+            <time start_time="0" end_time="20818749261" />
+        </timebase>
+    </timebases>
+    <prefbases>
+        <prefbase id="0" >
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="20505900000" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+</config>

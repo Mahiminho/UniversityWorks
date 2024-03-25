@@ -1,0 +1,44 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=lab3
+[Library]
+lab3=.\lab3\lab3.lib
+[$LibMap$]
+lab3=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+[IMPLEMENTATION]
+UCF=
+[Files.Data]
+.\src\NOT.vhd=VHDL Source Code
+.\src\OR.vhd=VHDL Source Code
+.\src\NOR.vhd=VHDL Source Code
+.\src\AND.vhd=VHDL Source Code
+.\src\NAND.vhd=VHDL Source Code
+.\src\XOR.vhd=VHDL Source Code
+.\src\NXOR.vhd=VHDL Source Code
+.\src\SHEME.vhd=VHDL Source Code
+[Files]
+/NOT.vhd=-1
+/OR.vhd=-1
+/NOR.vhd=-1
+/AND.vhd=-1
+/NAND.vhd=-1
+/XOR.vhd=-1
+/NXOR.vhd=-1
+/SHEME.vhd=-1
+[HierarchyViewer]
+HierarchyInformation=interface|behaviour|0
+ShowHide=ShowTopLevel
+Selected=

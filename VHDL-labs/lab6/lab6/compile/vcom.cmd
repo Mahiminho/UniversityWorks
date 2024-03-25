@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/lab6/lab6/compile/lab6.erf -d C:/My_Designs/lab6/lab6/compile -s C:/My_Designs/lab6/lab6/library.cfg -j C:/My_Designs/lab6/lab6/projlib.cfg -work lab6 -O3 -e 100 -work lab6 -2002 C:/My_Designs/lab6/lab6/src/ROM.vhd 

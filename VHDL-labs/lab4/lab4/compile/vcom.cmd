@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/lab4/lab4/compile/lab4.erf -d c:/My_Designs/lab4/lab4/compile -s c:/My_Designs/lab4/library.cfg -j c:/My_Designs/lab4/lab4/projlib.cfg -work lab4 -O3 -e 100 -work lab4 -2002 c:/My_Designs/lab4/lab4/src/Comp.vhd 

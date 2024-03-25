@@ -1,0 +1,33 @@
+Active-HDL 13.0.376.8320 2023-04-25 20:56:58
+
+Elaboration top modules:
+Architecture                  Behavioral(decoder)
+
+
+---------------------------------------------------------------------------------------------
+Entity   | Architecture | Library   | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------
+decoder  | Behavioral   | lab_2_mks |      | 13.0.376.8320 (Windows64) | -O3
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+VHDL Package            | Library   | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------
+standard                | std       |      |                           | <unavailable>
+TEXTIO                  | std       |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164          | ieee      |      | 13.0.376.8320 (Windows64) |  -2008
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Library                 | Comment
+---------------------------------------------------------------------------------------------
+ieee                    | Standard IEEE packages library
+lab_2_mks               | None
+std                     | Standard VHDL library
+---------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+decoder decoder Behavioral
+
+
+The performance of simulation is reduced. Version Student Edition

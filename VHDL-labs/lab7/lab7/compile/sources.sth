@@ -1,0 +1,15 @@
+[Files List]
+C:\vlib\std/src/standard.vhd=S
+C:\vlib\std/src/textio.vhd=S
+C:\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\vlib\ieee/src/arith_p.vhd=S
+C:\vlib\ieee/src/arith_b.vhd=S
+C:\vlib\ieee/src/signed_p.vhd=S
+C:\vlib\ieee/src/signed_b.vhd=S
+C:\vlib\ieee/src/unsigned_p.vhd=S
+C:\vlib\ieee/src/unsigned_b.vhd=S
+C:\My_Designs\lab7\lab7/src/LCDconverter.vhd=S
+C:\My_Designs\lab7\lab7/src/mod_DEMUX.vhd=S
+C:\My_Designs\lab7\lab7/src/mod_reg.vhd=S
+C:\My_Designs\lab7\lab7/compile/test_diagram.vhd=S

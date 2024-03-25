@@ -1,0 +1,240 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Error: couldn't read file "C:Tcl/lib/aldec/templates/common/gui_items.tcl": no such file or directory
+#     while executing
+# "source [ file join $aldec Tcl lib aldec templates common gui_items.tcl ]"
+#     (file "C:/tcl/lib/aldec/scripts/flowtools.tcl" line 41)
+#     invoked from within
+# "source [file join $dirTmp scripts flowtools.tcl]"
+#     (file "C:/tcl/lib/aldec/slave.tcl" line 82)
+#     invoked from within
+# "source "C:/tcl/lib/aldec/slave.tcl""
+#     invoked from within
+# "interp eval $slave "source \"$init_file\"""
+#     invoked from within
+# "if {![info exists slave] || ![interp exists $slave]} {
+# 	set slave [interp create slave_interp]
+# 	interp eval $slave set tcl_interactive 1
+# 	if {![info e..."
+# Error: couldn't read file "C:Tcl/lib/aldec/templates/common/gui_items.tcl": no such file or directory
+#     while executing
+# "source [ file join $aldec Tcl lib aldec templates common gui_items.tcl ]"
+#     (file "C:/tcl/lib/aldec/scripts/MultivendorTools.tcl" line 20)
+#     invoked from within
+# "source C:/tcl/lib/aldec/scripts/MultivendorTools.tcl"
+#     ("package ifneeded ::aldec::MultivendorTools 1.0" script)
+#     invoked from within
+# "package require ::aldec::MultivendorTools"
+#     (file "C:/Tcl/lib/aldec/templates/mv/flow.tcl" line 26)
+#     invoked from within
+# "source {C:/Tcl/lib/aldec/templates/mv/flow.tcl}"
+#     invoked from within
+# "interp eval $slave "source $source_file""
+acom -O3 -e 100 -work lab7 -2002  $dsn/src/test_diagram.bde
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/test_diagram.vhd
+# Compile Entity "test_diagram"
+# Compile Architecture "test_diagram" of Entity "test_diagram"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+asim -O5 +access +r +m+test_diagram test_diagram test_diagram
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6558 kB (elbread=427 elab2=5991 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\lab7\lab7\src\wave.asdb
+#  10:25, 2 травня 2023 р.
+#  Simulation has been initialized
+# add wave -noreg {/test_diagram/BUS144}
+# add wave -noreg {/test_diagram/BUS148}
+# add wave -noreg {/test_diagram/BUS183}
+# add wave -noreg {/test_diagram/BUS198}
+# add wave -noreg {/test_diagram/BUS213}
+# add wave -noreg {/test_diagram/BUS221}
+# add wave -noreg {/test_diagram/BUS229}
+# add wave -noreg {/test_diagram/BUS237}
+# add wave -noreg {/test_diagram/BUS245}
+# add wave -noreg {/test_diagram/CLK}
+# add wave -noreg {/test_diagram/WE}
+# add wave -noreg {/test_diagram/X}
+# add wave -noreg {/test_diagram/LCD1}
+# add wave -noreg {/test_diagram/LCD2}
+# add wave -noreg {/test_diagram/LCD3}
+# add wave -noreg {/test_diagram/LCD4}
+# add wave -noreg {/test_diagram/LCD5}
+# add wave -noreg {/test_diagram/LCD6}
+# add wave -noreg {/test_diagram/LCD7}
+# add wave -noreg {/test_diagram/LCD8}
+# VSIM: 20 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/lab7/lab7/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 3949450 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+test_diagram test_diagram test_diagram
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6558 kB (elbread=427 elab2=5991 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\lab7\lab7\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet5" has been made inactive.
+#  10:27, 2 травня 2023 р.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/lab7/lab7/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 4233 us
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+test_diagram test_diagram test_diagram
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6558 kB (elbread=427 elab2=5991 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\lab7\lab7\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet6" has been made inactive.
+#  10:27, 2 травня 2023 р.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/lab7/lab7/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 6004800 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+test_diagram test_diagram test_diagram
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6558 kB (elbread=427 elab2=5991 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\lab7\lab7\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet7" has been made inactive.
+#  10:29, 2 травня 2023 р.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/lab7/lab7/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+test_diagram test_diagram test_diagram
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6558 kB (elbread=427 elab2=5991 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\lab7\lab7\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet8" has been made inactive.
+#  10:30, 2 травня 2023 р.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/lab7/lab7/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+test_diagram test_diagram test_diagram
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6558 kB (elbread=427 elab2=5991 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\lab7\lab7\src\wave.asdb
+#  10:30, 2 травня 2023 р.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/lab7/lab7/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 882410 ns
+# VSIM: Simulation has finished.
+# Waveform file 'C:/My_Designs/lab7/lab7/src/wform.awc' connected to 'C:/My_Designs/lab7/lab7/src/wform.asdb'.
+# Adding file C:\My_Designs\lab7\lab7\src\wform.asdb ... Done
+# Adding file C:\My_Designs\lab7\lab7\src\wform.awc ... Done

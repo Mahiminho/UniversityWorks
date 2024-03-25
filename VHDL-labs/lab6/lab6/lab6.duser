@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design-settings>
+	<plugins>
+		<Aldec.Stimuli.1>
+			<hierarchy>
+				<stimuliSet name="StimuliSet1">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="100ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1111"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/ROM/Addr"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/ROM/CEO"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet2">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="100ns"/>
+							<start_value value="0000"/>
+							<modify_by_value value="1111"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/ROM/Addr"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/ROM/CEO"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet3">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="100ns"/>
+							<start_value value="0000"/>
+							<modify_by_value value="1111"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/ROM/Addr"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/ROM/CEO"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet4">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="binary"/>
+							<period value="5ns"/>
+							<start_value value="0000"/>
+							<modify_by_value value="1111"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/ROM/Addr"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/ROM/CEO"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet5">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="decimal"/>
+							<period value="5ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="15"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/ROM/Addr"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/ROM/CEO"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet6">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="0000" time="0fs"/>
+								<entry value="0001" time="5ns"/>
+								<entry value="0010" time="10ns"/>
+								<entry value="0011" time="15ns"/>
+								<entry value="0100" time="20ns"/>
+								<entry value="0101" time="25ns"/>
+								<entry value="0110" time="30ns"/>
+								<entry value="0111" time="35ns"/>
+								<entry value="1000" time="40ns"/>
+								<entry value="1001" time="45ns"/>
+								<entry value="1010" time="50ns"/>
+								<entry value="1011" time="55ns"/>
+								<entry value="1100" time="60ns"/>
+								<entry value="1101" time="65ns"/>
+								<entry value="1110" time="70ns"/>
+								<entry value="1111" time="75ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/ROM/Addr"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/ROM/CEO"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+			</hierarchy>
+		</Aldec.Stimuli.1>
+	</plugins>
+</design-settings>

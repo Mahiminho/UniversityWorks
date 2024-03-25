@@ -1,0 +1,39 @@
+Active-HDL 13.0.376.8320 2023-05-02 10:30:44
+
+Elaboration top modules:
+Architecture                  test_diagram(test_diagram)
+
+
+----------------------------------------------------------------------------------------------------
+Entity            | Architecture | Library | Info | Compiler Version          | Compilation Options
+----------------------------------------------------------------------------------------------------
+test_diagram      | test_diagram | lab7    |      | 13.0.376.8320 (Windows64) | -O3
+lcd_converter     | Behavioral   | lab7    |      | 13.0.376.8320 (Windows64) | -O3
+parallel_register | Behavioral   | lab7    |      | 13.0.376.8320 (Windows64) | -O3
+demultiplexer     | Behavioral   | lab7    |      | 13.0.376.8320 (Windows64) | -O3
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+VHDL Package                     | Library | Info | Compiler Version          | Compilation Options
+----------------------------------------------------------------------------------------------------
+standard                         | std     |      |                           | <unavailable>
+TEXTIO                           | std     |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164                   | ieee    |      | 13.0.376.8320 (Windows64) |  -2008
+std_logic_arith                  | ieee    |      | 13.0.376.8320 (Windows64) | <unavailable>
+STD_LOGIC_SIGNED                 | ieee    |      | 13.0.376.8320 (Windows64) | <unavailable>
+STD_LOGIC_UNSIGNED               | ieee    |      | 13.0.376.8320 (Windows64) | <unavailable>
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Library                          | Comment
+----------------------------------------------------------------------------------------------------
+ieee                             | Standard IEEE packages library
+lab7                             | None
+std                              | Standard VHDL library
+----------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+test_diagram test_diagram test_diagram
+
+
+The performance of simulation is reduced. Version Student Edition

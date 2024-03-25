@@ -1,0 +1,24 @@
+timestamp=1681742127265
+
+[~A]
+ModifyID=11
+Version=74
+
+[~MFT]
+0=8|0lab4.mgf|6390|5269
+1=2|1lab4.mgf|4606|4606
+3=2|3lab4.mgf|0|0
+
+[comp]
+A/comp=21|../src/Comp.vhd|39|1*4606
+BinW64/comp=3*0
+I=0*3655
+I/comp=0*6390
+M=11|2|vef|1681740012605|../src/Comp.vhd|0*3380*0xd778f8f24a8ae0ebb6087ad43d8a2d0481df844e|0*3582*0x23b75c12e3e89f2ef000564498faa8c2
+M/comp=21|2|vef|1681742127233|../src/Comp.vhd|0*5911*0xbc8f79828f3bc5b37352cc619ed42ddea46512ef|0*6309*0x20116f55b147878295aeff36dce7fc50
+R=../src/Comp.vhd|29
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|eb985f336c9afae69b813be856f0f0fda664c48d1dfee420fb8e8b5fb18d7374
+Version/comp=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|eb985f336c9afae69b813be856f0f0fd306b46078ffa1e20f206ae28eb83fd3e
+
+[~U]
+comp=11|0*3211|

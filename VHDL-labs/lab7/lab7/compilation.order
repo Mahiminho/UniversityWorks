@@ -1,0 +1,8 @@
+.\src\Decoder.vhd
+.\src\shift_register.vhd
+.\src\new_test_register.vhd
+.\src\test_diagram.bde
+.\src\Test_DEMUX.vhd
+.\src\mod_reg.vhd
+.\src\mod_DEMUX.vhd
+.\src\LCDconverter.vhd

@@ -1,0 +1,35 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Error: couldn't read file "C:Tcl/lib/aldec/templates/common/gui_items.tcl": no such file or directory
+#     while executing
+# "source [ file join $aldec Tcl lib aldec templates common gui_items.tcl ]"
+#     (file "C:/tcl/lib/aldec/scripts/flowtools.tcl" line 41)
+#     invoked from within
+# "source [file join $dirTmp scripts flowtools.tcl]"
+#     (file "C:/tcl/lib/aldec/slave.tcl" line 82)
+#     invoked from within
+# "source "C:/tcl/lib/aldec/slave.tcl""
+#     invoked from within
+# "interp eval $slave "source \"$init_file\"""
+#     invoked from within
+# "if {![info exists slave] || ![interp exists $slave]} {
+# 	set slave [interp create slave_interp]
+# 	interp eval $slave set tcl_interactive 1
+# 	if {![info e..."
+# Error: couldn't read file "C:Tcl/lib/aldec/templates/common/gui_items.tcl": no such file or directory
+#     while executing
+# "source [ file join $aldec Tcl lib aldec templates common gui_items.tcl ]"
+#     (file "C:/tcl/lib/aldec/scripts/MultivendorTools.tcl" line 20)
+#     invoked from within
+# "source C:/tcl/lib/aldec/scripts/MultivendorTools.tcl"
+#     ("package ifneeded ::aldec::MultivendorTools 1.0" script)
+#     invoked from within
+# "package require ::aldec::MultivendorTools"
+#     (file "C:/Tcl/lib/aldec/templates/mv/flow.tcl" line 26)
+#     invoked from within
+# "source {C:/Tcl/lib/aldec/templates/mv/flow.tcl}"
+#     invoked from within
+# "interp eval $slave "source $source_file""
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/lab4/lab4/src/Wform1.asdb'.
+# Waveform file 'C:/My_Designs/lab4/lab4/src/Wform1.awc' connected to 'C:/My_Designs/lab4/lab4/src/Wform1.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/lab4/lab4/src/Wform2.asdb'.

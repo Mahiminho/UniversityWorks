@@ -1,0 +1,24 @@
+timestamp=1682445412690
+
+[~A]
+ModifyID=3
+Version=74
+
+[~MFT]
+0=2|0lab_2_mks.mgf|1238|0
+1=2|1lab_2_mks.mgf|1025|1025
+3=2|3lab_2_mks.mgf|0|0
+
+[decoder]
+A/behavioral=A/Behavioral 21|../src/Decoder.vhd|37|1*1025
+BinW64/behavioral=3*0
+I=0*522
+I/behavioral=I/Behavioral 0*1238
+M=11|2|vef|1681152638024|../src/Decoder.vhd|0*199*0x4d3b607325f76863beb2aae9906bcde6aa81cbdd|0*443*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1682445412625|../src/Decoder.vhd|0*723*0xe1ac20ee32702a1dede55d5d8619e9131f95dad3|0*1145*0x20116f55b147878295aeff36dce7fc50
+R=../src/Decoder.vhd|28
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|5b5fade5c44e27adecc486171142a1d226527262ddaa47cb266f3a3c4d9b973a8c33b14ee127268cef123ef8b2d40e2a
+Version/behavioral=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff40a15e74fb692a1f1acd163e5825b5d70
+
+[~U]
+decoder=11|0*0|

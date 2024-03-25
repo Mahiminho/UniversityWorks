@@ -1,0 +1,14 @@
+[Version]
+Version=13.0
+[Designs]
+lab3=lab3.adf
+[Settings]
+Active=lab3
+[Expand]
+lab3=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
