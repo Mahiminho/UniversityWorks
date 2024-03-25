@@ -1,0 +1,59 @@
+
+
+Olga
+Year of birth: 2002
+In this year age: 30
+In this year number of skills: 12
+In this year salary: 12000
+She must working 12.5 years, if she want to get 150000
+Oleg
+Year of birth: 1997
+In this year age: 35
+In this year number of skills: 14
+In this year salary: 14000
+He must working 10.7143 years, if he want to get 150000
+Ivan
+Year of birth: 1997
+In this year age: 35
+In this year number of skills: 14
+In this year salary: 14000
+He must working 10.7143 years, if he want to get 150000
+
+Olga
+Year of birth: 2002
+In this year age: 35
+In this year number of skills: 14
+In this year salary: 14000
+She must working 17.8571 years, if she want to get 250000
+Oleg
+Year of birth: 1997
+In this year age: 40
+In this year number of skills: 16
+In this year salary: 16000
+He must working 15.625 years, if he want to get 250000
+Ivan
+Year of birth: 1997
+In this year age: 40
+In this year number of skills: 16
+In this year salary: 16000
+He must working 15.625 years, if he want to get 250000
+
+Olga
+Year of birth: 2002
+In this year age: 40
+In this year number of skills: 16
+In this year salary: 16000
+She must working 6.25 years, if she want to get 100000
+Oleg
+Year of birth: 1997
+In this year age: 45
+In this year number of skills: 18
+In this year salary: 18000
+He must working 5.55556 years, if he want to get 100000
+Ivan
+Year of birth: 1997
+In this year age: 45
+In this year number of skills: 18
+In this year salary: 18000
+He must working 5.55556 years, if he want to get 100000
+
