@@ -1,8 +1,0 @@
-﻿  Assembling WordACounter.asm...
-WordACounter.asm(17): warning A6004: procedure argument or local not referenced : hInstDLL
-WordACounter.asm(17): warning A6004: procedure argument or local not referenced : reason
-WordACounter.asm(17): warning A6004: procedure argument or local not referenced : reserved
-     Creating library C:\Users\Sager\source\repos\lab5_SP_DLL\Debug\lab5_SP_DLL.lib and object C:\Users\Sager\source\repos\lab5_SP_DLL\Debug\lab5_SP_DLL.exp
-lab5_SP_DLL.exp : warning LNK4070: /OUT:WordACounter.dll directive in .EXP differs from output filename 'C:\Users\Sager\source\repos\lab5_SP_DLL\Debug\lab5_SP_DLL.dll'; ignoring directive
-C:\Users\Sager\source\repos\lab5_SP_DLL\Debug\lab5_SP_DLL.dll : warning LNK4086: entrypoint '_DllEntry' is not __stdcall with 12 bytes of arguments; image may not run
-  lab5_SP_DLL.vcxproj -> C:\Users\Sager\source\repos\lab5_SP_DLL\Debug\lab5_SP_DLL.dll
