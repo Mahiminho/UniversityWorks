@@ -1,0 +1,16 @@
+//commentar
+#program App;
+start
+variable integer16 A,B,C,D;
+get(A);
+get(B);
+put(A add B);
+put(A sub B);
+put(A * B);
+put(A / B);
+put(A % B);
+C::(A sub B) * 10 add (A add B) / 10;
+D::A add (A % 10);
+put(C);
+put(D);
+stop

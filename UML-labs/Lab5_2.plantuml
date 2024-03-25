@@ -1,0 +1,57 @@
+@startuml Lab5_1
+
+skinparam Linetype ortho
+
+package ServerPart {
+    [Створення повного замовлення] as MakeOrder
+    [Перенаправлення на інструкцію] as RedirectInstruction
+    [Перенаправлення на зміну мови] as RedirectionLanguage
+}
+
+package AdminPart {
+    [Кнопка отримання даних] as GetDataButton
+    [Кнопка відмови замовлення] as RefusalOredrButton
+    [Список зміни меню] as MenuChangeList
+}
+
+package SettingsPart {
+    [Сторінка з інструкцією] as InstructionPage
+    [Зміна мови] as ChangeLanguage
+}
+
+database Language {
+    [Пакет української] as Urkrainian
+    [Пакет англійської] as English
+    [Пакет французької] as French
+    [Пакет німецької] as Deutch
+}
+
+database Menu {
+    [Позиції меню] as Positions
+    [Напої] as Drinks
+}
+
+
+
+
+MakeOrder --> GetDataButton
+
+GetDataButton -> RefusalOredrButton
+
+RedirectionLanguage --> ChangeLanguage
+RedirectInstruction --> InstructionPage
+
+
+Urkrainian -up- SSH1
+English -up- SSH1
+French -up- SSH1
+Deutch -up- SSH1
+
+
+ChangeLanguage -down-( SSH1
+
+Drinks -up- SSH2
+Positions -up- SSH2
+MakeOrder --( SSH2
+
+@enduml

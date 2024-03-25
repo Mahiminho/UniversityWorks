@@ -1,0 +1,75 @@
+@startuml Lab4_1
+
+class Client {
+    -name 
+    -age 
+    +makeOrder()
+    +talkAdmin()
+    +pay()
+}
+
+class Menu {
+    -positions
+    +sort()
+}
+
+class Sorting {
+    -category
+    -price 
+    -popularity
+    +sort1()
+    +sort2()
+    +sort3()
+}
+
+abstract Settings {
+
+}
+
+class Instruction {
+    +getInstruction()
+}
+
+class Language {
+    -ukrainian
+    -english
+    -french
+    -deutch
+    -italian
+    -spanish
+    +changeLanguage()
+}
+
+class Admin {
+    -name
+    -age
+    +talkClient()
+    +getOredr()
+}
+
+Client -- Settings
+Settings <|-- Language
+Settings <|-- Instruction
+Client -- Menu
+Menu <|-- Sorting
+Client -- Admin
+
+@enduml
+
+
+
+' abstract        abstract
+' class           class
+
+' Class01 <|-- Class02
+' Class03 *-- Class04
+' Class05 o-- Class06
+' Class09 -- Class10
+' Class15 ..> Class16
+
+' class Dummy {
+'  -field1
+'  +method2()
+'  ~method1()
+'  #field2
+' }

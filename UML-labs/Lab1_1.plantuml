@@ -1,0 +1,52 @@
+@startuml Lab1_1
+
+left to right direction
+actor "Клієнт" as CL
+rectangle "Система" {
+    usecase "Створити замовлення" as CreateOrder
+    usecase "Переглянути інструкцію використання терміналу" as Instruction
+    usecase "Змінити мову інтерфейсу" as ChangeLeanguage
+
+    usecase "Відсортувати" as Sort
+    usecase "За поппулярністю" as Popularity
+    usecase "За ціною" as Price
+    usecase "За категорією" as Category
+
+    usecase "Обрати позиції" as Positions
+
+    usecase "Вибір місця" as Place
+    usecase "З собою" as Out
+    usecase "В закладі" as Restraunt
+    usecase "Змінити замовлення" as ChangeOrder
+
+    usecase "Оплата" as Payment
+    usecase "Готівка" as Cash
+    usecase "Банківська карта" as CreditCard
+    usecase "Відмінити замовлення" as Exit
+} 
+
+
+
+CL --> CreateOrder
+
+Sort .> CreateOrder: extends
+Sort <|-- Popularity 
+Sort <|-- Price 
+Sort <|-- Category 
+
+Positions <.up. CreateOrder: includes
+
+Place <.up. Positions: includes
+Out .> Place: extends
+Restraunt .> Place: extends
+ChangeOrder .> Place: extends
+
+Payment <.up. Place: includes
+Cash .> Payment: extends
+CreditCard .> Payment: extends
+Exit .> Payment: extends
+
+CL --> Instruction
+CL --> ChangeLeanguage
+
+@enduml

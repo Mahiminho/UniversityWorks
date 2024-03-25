@@ -1,0 +1,62 @@
+@startuml Lab3_2
+
+participant "Сервер" as SR
+participant "Онлайн інструкція" as INS
+database "База даних меню" as MenuDB
+database "База даних перекладач" as TransDB
+participant "Сторінка з оплатою" as Pay
+participant "Електронний чек" as Check
+actor "Персонал" as Personal
+
+SR -> TransDB : Запит на отриамння перекладених пунктів терміналу
+activate SR
+activate TransDB
+TransDB --> SR : Надсилання файлу з базою перекладу
+deactivate TransDB
+deactivate SR
+
+SR -> INS : Запит на перенаправлення на сторінку з інструкцією
+activate SR
+activate INS
+INS --> SR : Надсилання веб-сторінки з інструкцією
+deactivate INS
+deactivate SR
+
+SR -> MenuDB : Запит на наявність позицій меню
+activate SR
+activate MenuDB
+MenuDB -> Check : Запис наявнмх позицій меню
+activate Check
+deactivate Check
+MenuDB --> SR : Повідомлення про успішне створення замовлення
+deactivate MenuDB
+deactivate SR
+
+SR -> Check : Запит на запис місця
+activate SR
+activate Check
+Check --> SR : Надсилання повідомлення про успішно записане місце
+deactivate Check
+deactivate SR
+
+SR -> Pay : Запит на оплату замовлення
+activate SR
+activate Pay
+Pay -> Check : Запис успішної оплати
+activate Check
+deactivate Check
+Pay --> SR : Повідомлення про успішну оплату замовлення
+deactivate Pay
+deactivate SR
+
+SR -> Check : Запит на відправку готового чеку
+activate SR
+activate Check
+Check -> Personal : Надсилання чеку
+activate Personal
+deactivate Personal
+Check --> SR : Повідомлення про успішно надісланий чек
+deactivate Check
+deactivate SR
+
+@enduml

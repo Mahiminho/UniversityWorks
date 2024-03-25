@@ -1,0 +1,103 @@
+@startuml Lab4_2
+
+class Server {
+    -version
+    +getRequest()
+}
+
+class Check {
+    -count 
+    -isEnable
+    +writeInfo()
+    +readInfo()
+}
+
+abstract System {
+
+}
+
+class Payment {
+    -sum
+    -creditCard
+    -cash 
+    +getPaymentMethod()
+    +calculate()
+}
+
+class Order {
+    -positions
+    -drinks
+    -count 
+    +getPositions()
+    +getDrinks()
+    +getCount()
+}
+
+class Database {
+    -menu1
+    -menu2
+    -menu3
+    +chooseMenu()
+}
+
+class Personal {
+    -countPeople
+    +getOrder()
+    +prepareOrder()
+}
+
+abstract User {
+
+}
+
+abstract Restraunt {
+
+}
+
+class UserSettings {
+    -language
+    -colorMenu
+    +setLanguage()
+    +getLanguage()
+    +setColorMenu()
+    +getColorMenu()
+}
+
+class UserInformation {
+    -name
+    -age 
+    -oftenCome
+    +getName()
+    +getAge()
+    +getDiscount()
+}
+
+Server -- User
+User <|-- UserSettings
+User <|-- UserInformation
+Server -- Restraunt
+Restraunt <|-- Personal
+Restraunt <|-- Check
+Server -- System
+System <|-- Database
+System <|-- Order
+System <|-- Payment
+
+
+@enduml
+
+' abstract        abstract
+' class           class
+
+' Class01 <|-- Class02
+' Class03 *-- Class04
+' Class05 o-- Class06
+' Class09 -- Class10
+' Class15 ..> Class16
+
+' class Dummy {
+'  -field1
+'  +method2()
+'  ~method1()
+'  #field2
+' }

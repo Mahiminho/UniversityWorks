@@ -1,0 +1,203 @@
+Table of tokens!
+=======================================================
+#	        NAME                TYPE     VALUE LINE
+=======================================================
+1	 //commentar            comentar         0    1
+2	    #program             program         0    2
+3	        App_        program name         0    2
+4	           ;           separator         0    2
+5	       start               start         0    3
+6	    variable            variable         0    4
+7	   integer16            var type         0    4
+8	          A_          identifier         0    4
+9	           ,               comma         0    4
+10	          B_          identifier         0    4
+11	           ,               comma         0    4
+12	          C_          identifier         0    4
+13	           ;           separator         0    4
+14	         get               input         0    5
+15	           (         left braket         0    5
+16	          A_          identifier         0    5
+17	           )        right braket         0    5
+18	           ;           separator         0    5
+19	         get               input         0    6
+20	           (         left braket         0    6
+21	          B_          identifier         0    6
+22	           )        right braket         0    6
+23	           ;           separator         0    6
+24	         get               input         0    7
+25	           (         left braket         0    7
+26	          C_          identifier         0    7
+27	           )        right braket         0    7
+28	           ;           separator         0    7
+29	          if                  if         0    8
+30	           (         left braket         0    8
+31	          A_          identifier         0    8
+32	          <=                less         0    8
+33	          B_          identifier         0    8
+34	           )        right braket         0    8
+35	        goto                goto         0    8
+36	      Else1_              target         0    8
+37	           ;           separator         0    8
+38	          if                  if         0    9
+39	           (         left braket         0    9
+40	          A_          identifier         0    9
+41	          >=              greate         0    9
+42	          C_          identifier         0    9
+43	           )        right braket         0    9
+44	        goto                goto         0    9
+45	      Else2_              target         0    9
+46	           ;           separator         0    9
+47	         put              output         0   10
+48	           (         left braket         0   10
+49	          C_          identifier         0   10
+50	           )        right braket         0   10
+51	           ;           separator         0   10
+52	        goto                goto         0   11
+53	     Endif2_              target         0   11
+54	           ;           separator         0   11
+55	     Else2_:               label         0   12
+56	         put              output         0   13
+57	           (         left braket         0   13
+58	          A_          identifier         0   13
+59	           )        right braket         0   13
+60	           ;           separator         0   13
+61	    Endif2_:               label         0   14
+62	        goto                goto         0   15
+63	     Endif1_              target         0   15
+64	           ;           separator         0   15
+65	     Else1_:               label         0   16
+66	          if                  if         0   17
+67	           (         left braket         0   17
+68	          B_          identifier         0   17
+69	          >=              greate         0   17
+70	          C_          identifier         0   17
+71	           )        right braket         0   17
+72	        goto                goto         0   17
+73	      Else3_              target         0   17
+74	           ;           separator         0   17
+75	         put              output         0   18
+76	           (         left braket         0   18
+77	          C_          identifier         0   18
+78	           )        right braket         0   18
+79	           ;           separator         0   18
+80	        goto                goto         0   19
+81	     Endif3_              target         0   19
+82	           ;           separator         0   19
+83	     Else3_:               label         0   20
+84	         put              output         0   21
+85	           (         left braket         0   21
+86	          B_          identifier         0   21
+87	           )        right braket         0   21
+88	           ;           separator         0   21
+89	    Endif3_:               label         0   22
+90	    Endif1_:               label         0   23
+91	          if                  if         0   24
+92	           (         left braket         0   24
+93	           (         left braket         0   24
+94	          A_          identifier         0   24
+95	           =                 equ         0   24
+96	          B_          identifier         0   24
+97	           )        right braket         0   24
+98	           &                 and         0   24
+99	           (         left braket         0   24
+100	          A_          identifier         0   24
+101	           =                 equ         0   24
+102	          C_          identifier         0   24
+103	           )        right braket         0   24
+104	           &                 and         0   24
+105	           (         left braket         0   24
+106	          B_          identifier         0   24
+107	           =                 equ         0   24
+108	          C_          identifier         0   24
+109	           )        right braket         0   24
+110	           )        right braket         0   24
+111	        goto                goto         0   24
+112	      Else4_              target         0   24
+113	           ;           separator         0   24
+114	         put              output         0   25
+115	           (         left braket         0   25
+116	          0_              number         0   25
+117	           )        right braket         0   25
+118	           ;           separator         0   25
+119	        goto                goto         0   26
+120	     Endif4_              target         0   26
+121	           ;           separator         0   26
+122	     Else4_:               label         0   27
+123	         put              output         0   28
+124	           (         left braket         0   28
+125	          1_              number         1   28
+126	           )        right braket         0   28
+127	           ;           separator         0   28
+128	    Endif4_:               label         0   29
+129	          if                  if         0   30
+130	           (         left braket         0   30
+131	           (         left braket         0   30
+132	          A_          identifier         0   30
+133	          <=                less         0   30
+134	          0_              number         0   30
+135	           )        right braket         0   30
+136	           |                  or         0   30
+137	           (         left braket         0   30
+138	          B_          identifier         0   30
+139	          <=                less         0   30
+140	          0_              number         0   30
+141	           )        right braket         0   30
+142	           |                  or         0   30
+143	           (         left braket         0   30
+144	          C_          identifier         0   30
+145	          <=                less         0   30
+146	          0_              number         0   30
+147	           )        right braket         0   30
+148	           )        right braket         0   30
+149	        goto                goto         0   30
+150	      Else5_              target         0   30
+151	           ;           separator         0   30
+152	         put              output         0   31
+153	           (         left braket         0   31
+154	          0_              number         0   31
+155	           )        right braket         0   31
+156	           ;           separator         0   31
+157	        goto                goto         0   32
+158	     Endif5_              target         0   32
+159	           ;           separator         0   32
+160	     Else5_:               label         0   33
+161	         put              output         0   34
+162	           (         left braket         0   34
+163	         -1_              number        -1   34
+164	           )        right braket         0   34
+165	           ;           separator         0   34
+166	    Endif5_:               label         0   35
+167	          if                  if         0   36
+168	           (         left braket         0   36
+169	           !                 not         0   36
+170	           (         left braket         0   36
+171	          A_          identifier         0   36
+172	          <=                less         0   36
+173	           (         left braket         0   36
+174	          B_          identifier         0   36
+175	         add                 add         0   36
+176	          C_          identifier         0   36
+177	           )        right braket         0   36
+178	           )        right braket         0   36
+179	           )        right braket         0   36
+180	        goto                goto         0   36
+181	      Else6_              target         0   36
+182	           ;           separator         0   36
+183	         put              output         0   37
+184	           (         left braket         0   37
+185	          0_              number         0   37
+186	           )        right braket         0   37
+187	           ;           separator         0   37
+188	        goto                goto         0   38
+189	     Endif6_              target         0   38
+190	           ;           separator         0   38
+191	     Else6_:               label         0   39
+192	         put              output         0   40
+193	           (         left braket         0   40
+194	         10_              number        10   40
+195	           )        right braket         0   40
+196	           ;           separator         0   40
+197	    Endif6_:               label         0   41
+198	        stop                 end         0   42
+199	                     end of file         0   42

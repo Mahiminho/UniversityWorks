@@ -1,0 +1,53 @@
+@startuml Lab5_1
+
+skinparam Linetype ortho
+
+package UIPart {
+    [Кнопка мови] as LanguageButton
+    [Кнопка інструкції] as InstructionButton
+    [Кнопка замовлення] as OrderButton
+    [Випадаючий список сортування] as SortList
+    [Вибір місця] as ChoosePlace
+    [Кнопка оплати] as PaymentButton
+}
+
+package ServerPart {
+    [Створення повного замовлення] as MakeOrder
+    [Перенаправлення на інструкцію] as RedirectInstruction
+    [Перенаправлення на зміну мови] as RedirectionLanguage
+}
+
+package AdminPart {
+    [Кнопка отримання даних] as GetDataButton
+    [Кнопка відмови замовлення] as RefusalOredrButton
+    [Список зміни меню] as MenuChangeList
+}
+
+package SettingsPart {
+    [Сторінка з інструкцією] as InstructionPage
+    [Зміна мови] as ChangeLanguage
+}
+
+HTTP1 -up- MakeOrder
+OrderButton -right-( HTTP1
+ChoosePlace -right-( HTTP1
+PaymentButton -right-( HTTP1
+
+MakeOrder --> GetDataButton
+
+OrderButton -down-> SortList
+
+HTTP2 -down- RedirectInstruction
+HTTP3 -left- RedirectionLanguage
+
+InstructionButton -up-( HTTP2
+LanguageButton -up-( HTTP3
+
+MenuChangeList -down- HTTP4
+SortList -right-( HTTP4
+GetDataButton -> RefusalOredrButton
+
+RedirectionLanguage -up-> ChangeLanguage
+RedirectInstruction -up-> InstructionPage
+
+@enduml

@@ -1,0 +1,111 @@
+@startuml Lab1_2
+
+left to right direction
+actor "Сервер" as Server
+rectangle "Система" {
+    usecase "Запит на створення замовлення" as RequestCreateOrder
+    usecase "Успіх" as Success1
+    usecase "Помилка" as Error1
+
+    usecase "Вибір місця" as Place
+
+    usecase "З собою" as Out
+    usecase "Успіх" as Success2
+    usecase "Помилка" as Error2
+
+    usecase "В закладі" as Restraunt
+    usecase "Успіх" as Success3
+    usecase "Помилка" as Error3
+
+    usecase "Змінити замовлення" as ChangeOrder
+    usecase "Успіх" as Success4
+    usecase "Помилка" as Error4
+
+    usecase "Оплата" as Payment
+
+    usecase "Готівка" as Cash
+    usecase "Успіх" as Success5
+    usecase "Помилка" as Error5
+
+    usecase "Банківська карта" as CreditCard
+    usecase "Успіх" as Success6
+    usecase "Помилка" as Error6
+
+    usecase "Відмінити замовлення" as Exit
+    usecase "Успіх" as Success7
+    usecase "Помилка" as Error7
+
+    usecase "Сортування позицій меню" as Sort
+
+    usecase "За поппулярністю" as Popularity
+    usecase "Успіх" as Success8
+    usecase "Помилка" as Error8
+
+    usecase "За ціною" as Price
+    usecase "Успіх" as Success9
+    usecase "Помилка" as Error9
+
+    usecase "За категорією" as Category
+    usecase "Успіх" as Success10
+    usecase "Помилка" as Error10
+
+    usecase "Перенаправлення на сторінку з інструкцією" as Instruction
+    usecase "Зміна мовних параметрів системи" as ChangeLeanguage
+} 
+
+
+
+Server --> RequestCreateOrder
+Success1 .up.> RequestCreateOrder: extends
+Error1 .up.> RequestCreateOrder: extends
+
+Place <.up. Success1: includes
+
+ChangeOrder .left.> Place: extends
+Out .right.> Place: extends
+Restraunt .right.> Place: extends
+
+Success4 .down.> ChangeOrder: extends
+RequestCreateOrder <.up. Success4: includes
+Error4 .down.> ChangeOrder: extends
+
+Success2 .up.> Out: extends
+Error2 .right.> Out: extends
+
+Success3 .up.> Restraunt: extends
+Error3 .right.> Restraunt: extends
+
+Payment <.up. Success2: includes
+Payment <.up. Success3: includes
+
+Cash .right.> Payment: extends
+CreditCard .right.> Payment: extends
+Exit .right.> Payment: extends
+
+Success5 .up.> Cash: extends
+Error5 .up.> Cash: extends
+
+Success6 .up.> CreditCard: extends
+Error6 .up.> CreditCard: extends
+
+Success7 .up.> Exit: extends
+Error7 .up.> Exit: extends
+
+Server --> Instruction
+Server --> Sort
+Server --> ChangeLeanguage
+
+Popularity .right.> Sort: extends
+Price .right.> Sort: extends
+Category .right.> Sort: extends
+
+Success8 .up.> Popularity: extends
+Error8 .up.> Popularity: extends
+
+Success9 .up.> Price: extends
+Error9 .up.> Price: extends
+
+Success10 .up.> Category: extends
+Error10 .up.> Category: extends
+
+@enduml
